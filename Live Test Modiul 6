@@ -6,6 +6,7 @@ class MyShoppingListApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         appBar: AppBar(
           title: Text('My Shopping List'),
@@ -13,7 +14,7 @@ class MyShoppingListApp extends StatelessWidget {
             IconButton(
               icon: Icon(Icons.shopping_cart),
               onPressed: () {
-                // Implement cart functionality here
+                
               },
             ),
           ],
